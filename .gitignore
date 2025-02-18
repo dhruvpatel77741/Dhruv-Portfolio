@@ -19,6 +19,9 @@
 .DS_Store
 *.pem
 
+# MacOS system files
+.DS_Store
+
 # debug
 npm-debug.log*
 yarn-debug.log*
@@ -30,6 +33,10 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 .env
+
+# ESLint and Prettier
+.eslintcache
+.prettierignore
 
 # vercel
 .vercel
