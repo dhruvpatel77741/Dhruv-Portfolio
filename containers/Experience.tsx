@@ -1,9 +1,13 @@
 import React from 'react';
 import { experience } from '../portfolio';
-import { Container, Row } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 import ExperienceCard from '../components/ExperienceCard';
 
 const Experience = () => {
+  const total = experience.length;
+  const isOdd = total % 2 !== 0;
+  const mainCount = isOdd ? total - 1 : total;
+
   return (
     experience && (
       <section className="section section-lg">
@@ -18,11 +22,22 @@ const Experience = () => {
               <h4 className="display-3 text-info">Experience</h4>
             </div>
           </div>
+
+          {/* First N (even number of) cards */}
           <Row className="row-grid align-items-start">
-            {experience.map((data, i) => {
-              return <ExperienceCard key={i} {...data} />;
-            })}
+            {experience.slice(0, mainCount).map((data, i) => (
+              <ExperienceCard key={i} {...data} />
+            ))}
           </Row>
+
+          {/* Last card, if odd */}
+          {isOdd && (
+            <Row className="row-grid align-items-start mt-4 justify-content-center">
+              <Col className="d-flex justify-content-center">
+                <ExperienceCard {...experience[total - 1]} />
+              </Col>
+            </Row>
+          )}
         </Container>
       </section>
     )

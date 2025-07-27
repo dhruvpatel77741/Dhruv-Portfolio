@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   description:
     "A passionate software developer, your fellow coder, and a proud tech geek. Let's chat about all things tech and explore the latest innovations together. Keep scrolling to discover more about me.",
   resumeLink:
-    'https://drive.google.com/file/d/1_LDl_JnYj4nsojwQ6d35KomAenLJFYwp/view?usp=sharing',
+    'https://drive.google.com/file/d/1lgQOBtXIynyuGPrQSitpgI7bepyceIxT/view?usp=sharing',
 };
 
 export const openSource = {
@@ -27,7 +27,7 @@ export const contact = {};
 
 export const socialLinks: SocialLinksType = {
   url: '',
-  linkedin: 'https://www.linkedin.com/in/dhruvpatelchicago/',
+  linkedin: 'https://www.linkedin.com/in/dhruvpatel77741/',
   github: 'https://github.com/dhruvpatel77741/',
   gmail: 'dhruvpatel77741@gmail.com'
 };
@@ -188,26 +188,26 @@ export const experience: ExperienceType[] = [
     date: 'Jan 2024 – Jul 2024',
     desc: 'Developed and optimized a Solar Power Web App, improving user engagement by 15%. Collaborated with cross-functional teams to gather requirements and implement features, enhancing the overall user experience. Employed agile methodologies, ensuring the timely delivery of project milestones.',
   },
-  {
-    role: 'Software Developer',
-    company: 'Insignia Technolabs',
-    companyLogo: './img/icons/common/insignia-logo2.png',
-    date: 'Jul 2023 – Jul 2024',
-    desc: 'Led the design and implementation of software solutions, demonstrating proficiency in Java, C++, and JavaScript. Conducted rigorous testing to ensure high-quality software performance, reducing bugs by 20%. Played a key role in project planning, contributing to resource allocation and task delegation.',
-  },
+//   {
+//     role: 'Software Developer',
+//     company: 'Insignia Technolabs',
+//     companyLogo: './img/icons/common/insignia-logo2.png',
+//     date: 'Jul 2023 – Jul 2024',
+//     desc: 'Led the design and implementation of software solutions, demonstrating proficiency in Java, C++, and JavaScript. Conducted rigorous testing to ensure high-quality software performance, reducing bugs by 20%. Played a key role in project planning, contributing to resource allocation and task delegation.',
+//   },
   {
     role: 'Administrative and Operations Coordinator',
     company: 'Shiv Immigration',
     companyLogo: './img/icons/common/shiv-logo.jpg',
     date: 'May 2023 – Dec 2023',
-    desc: 'Managed financial transactions, including budgeting, expense tracking, and financial reporting. Oversaw daily operations, ensuring smooth functioning of the institution and resolving any operational issues.',
+    desc: 'Managed financial transactions, including budgeting, expense tracking, and financial reporting. Oversaw daily operations, ensuring smooth functioning of the institution and resolving any operational issues. Led and supervised teams to optimize workflows, enforce compliance, and achieve organizational goals.',
   },
   {
     role: 'Research Intern',
     company: 'Institute for Plasma Research',
     companyLogo: './img/icons/common/ipr-logo2.png',
     date: 'Dec 2022 – Apr 2023',
-    desc: 'Developed a centralized Authentication System providing Single Sign-On (SSO) services. Gained hands-on experience with High-Performance Computing (HPC) systems.',
+    desc: 'Developed a centralized Authentication System providing Single Sign-On (SSO) services. Designed and tested API endpoints using Postman, optimizing authentication workflows. Collaborated with IT teams to deploy and troubleshoot IAM solutions, reducing authentication issues by 30%.',
   }
 ];
 
