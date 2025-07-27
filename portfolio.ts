@@ -203,7 +203,7 @@ export const experience: ExperienceType[] = [
     desc: 'Managed financial transactions, including budgeting, expense tracking, and financial reporting. Oversaw daily operations, ensuring smooth functioning of the institution and resolving any operational issues. Led and supervised teams to optimize workflows, enforce compliance, and achieve organizational goals.',
   },
   {
-    role: 'Research Intern',
+    role: 'Project Intern',
     company: 'Institute for Plasma Research',
     companyLogo: './img/icons/common/ipr-logo2.png',
     date: 'Dec 2022 – Apr 2023',
