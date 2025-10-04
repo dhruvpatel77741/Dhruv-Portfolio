@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   description:
     "A passionate software developer, your fellow coder, and a proud tech geek. Let's chat about all things tech and explore the latest innovations together. Keep scrolling to discover more about me.",
   resumeLink:
-    'https://drive.google.com/file/d/1lgQOBtXIynyuGPrQSitpgI7bepyceIxT/view?usp=sharing',
+    'https://drive.google.com/file/d/1rlK2awdwkx3LY987TeWP1uENqhH1qYUL/view?usp=sharing',
 };
 
 export const openSource = {
@@ -181,6 +181,13 @@ export const educationInfo: EducationType[] = [
 ];
 
 export const experience: ExperienceType[] = [
+  {
+    role: 'Graduate Teaching Assistant',
+    company: 'Illinois Institute of Technology',
+    companyLogo: './img/icons/common/iit-logo.svg',
+    date: 'Aug 2025 – Dec 2025',
+    desc: 'Lead tutorials on JavaScript, React.js, and Express.js, delivering practical instruction in modern web development. Guide students on client–server practices and RESTful APIs. Assist faculty with coordination, mentor through one-on-one support, and evaluate assignments with constructive feedback.',
+  },
   {
     role: 'Frontend Developer',
     company: 'Uveaa Australia Pty. Ltd.',
