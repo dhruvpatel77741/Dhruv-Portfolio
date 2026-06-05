@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   description:
     "A passionate software developer, your fellow coder, and a proud tech geek. Let's chat about all things tech and explore the latest innovations together. Keep scrolling to discover more about me.",
   resumeLink:
-    'https://drive.google.com/file/d/1rlK2awdwkx3LY987TeWP1uENqhH1qYUL/view?usp=sharing',
+    'https://drive.google.com/file/d/1p7Qt0rUXi3JmL3Cl_STtv_EvHZqCyEk3/view',
 };
 
 export const openSource = {
@@ -186,29 +186,29 @@ export const experience: ExperienceType[] = [
     company: 'Illinois Institute of Technology',
     companyLogo: './img/icons/common/iit-logo.svg',
     date: 'Aug 2025 – Dec 2025',
-    desc: 'Lead tutorials on JavaScript, React.js, and Express.js, delivering practical instruction in modern web development. Guide students on client–server practices and RESTful APIs. Assist faculty with coordination, mentor through one-on-one support, and evaluate assignments with constructive feedback.',
+    desc: 'Standardize complex distributed architectures and serverless paradigms for large developer teams while enforcing enterprise SLA standards. Engineer containerized microservices using Docker to streamline CI/CD pipelines and improve deployment efficiency by 25%. Evaluate full-stack system architectures and design automated regression testing suites to reduce integration defects and bugs by 30%.',
   },
   {
     role: 'Frontend Developer',
     company: 'Uveaa Australia Pty. Ltd.',
     companyLogo: './img/icons/common/uveaa-logo3.svg',
     date: 'Jan 2024 – Jul 2024',
-    desc: 'Developed and optimized a Solar Power Web App, improving user engagement by 15%. Collaborated with cross-functional teams to gather requirements and implement features, enhancing the overall user experience. Employed agile methodologies, ensuring the timely delivery of project milestones.',
+    desc: 'Engineered a responsive, highly accessible web application, boosting user engagement by 15%. Collaborated with UX and backend teams to implement performant UI modules and data-fetching strategies, reducing production defects by 20%. Employed agile methodologies, accelerating feature deployment timelines by 15%.',
   },
-//   {
-//     role: 'Software Developer',
-//     company: 'Insignia Technolabs',
-//     companyLogo: './img/icons/common/insignia-logo2.png',
-//     date: 'Jul 2023 – Jul 2024',
-//     desc: 'Led the design and implementation of software solutions, demonstrating proficiency in Java, C++, and JavaScript. Conducted rigorous testing to ensure high-quality software performance, reducing bugs by 20%. Played a key role in project planning, contributing to resource allocation and task delegation.',
-//   },
   {
-    role: 'Administrative and Operations Coordinator',
-    company: 'Shiv Immigration',
-    companyLogo: './img/icons/common/shiv-logo.jpg',
-    date: 'May 2023 – Dec 2023',
-    desc: 'Managed financial transactions, including budgeting, expense tracking, and financial reporting. Oversaw daily operations, ensuring smooth functioning of the institution and resolving any operational issues. Led and supervised teams to optimize workflows, enforce compliance, and achieve organizational goals.',
+    role: 'Software Developer',
+    company: 'Insignia Technolabs',
+    companyLogo: './img/icons/common/insignia-logo2.png',
+    date: 'Jul 2023 – Jul 2024',
+    desc: 'Led the optimization and security of enterprise-level MySQL databases and RESTful APIs for 1,000+ active users. Conducted technical root-cause investigations and debugging to isolate performance anomalies, ensuring high-quality system performance. Played a key role in Git-based code reviews and agile cycles, driving a 25% improvement in user platform adoption.',
   },
+  // {
+  //   role: 'Administrative and Operations Coordinator',
+  //   company: 'Shiv Immigration',
+  //   companyLogo: './img/icons/common/shiv-logo.jpg',
+  //   date: 'May 2023 – Dec 2023',
+  //   desc: 'Managed financial transactions, including budgeting, expense tracking, and financial reporting. Oversaw daily operations, ensuring smooth functioning of the institution and resolving any operational issues. Led and supervised teams to optimize workflows, enforce compliance, and achieve organizational goals.',
+  // },
   {
     role: 'Project Intern',
     company: 'Institute for Plasma Research',
@@ -220,10 +220,10 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: 'SmartHomes - Online Retailer Platform',
+    name: 'Medical NLP Service - Diagnostic Report Processor',
     companyLogo: './img/icons/common/ECommerce-logo.png',
-    desc: 'Built an e-commerce platform with category-based shopping, order tracking, and cancellations. Integrated Elasticsearch within Docker for semantic search, improving accuracy. Developed an AI-driven ticketing system using OpenAI and base64 image processing for defect analysis. Implemented role-based access control for Store Managers, Salesmen, and Customers, enabling CRUD operations and AI-powered product generation. Also AI based product generation. Used MySQL for all data and MongoDB for Customer Reviews.',
-    github: 'https://github.com/dhruvpatel77741/SmartHomes',
+    desc: 'Built an enterprise-grade cloud medical NLP service using Python and Hugging Face for tokenization and sequence classification. Integrated a performant cloud API gateway within sandboxed execution boundaries, reducing data latency by 80% while safeguarding strict medical data residency rules. Developed multi-label correlation pipelines to process patient data streams, improving diagnostic matching accuracy by 25%. Implemented secure data management across infrastructure for all patient medical records.',
+    github: 'https://github.com/dhruvpatel77741/CS595-NLP_Extraction.git',
   },
   {
     name: 'EliteCare - Health Assistant',
@@ -232,11 +232,17 @@ export const projects: ProjectType[] = [
     github: 'https://github.com/dhruvpatel77741/EliteCare-HealthAssistant',
   },
   {
-    name: 'Currency-Converter',
-    companyLogo: './img/icons/common/currency-converter-logo2.png',
-    desc: 'A user-friendly Currency Converter application that enables seamless currency conversion between different currencies. With real-time exchange rates fetched from an external API, the app provides dynamic results. It also showcases a visually appealing interface with country flags for each currency, offering a smooth user experience. The application gives conversions, ensuring users have the latest data at their fingertips.',
-    github: 'https://github.com/dhruvpatel77741/Currency-Converter',
+    name: 'SmartHomes - Online Retailer Platform',
+    companyLogo: './img/icons/common/ECommerce-logo.png',
+    desc: 'Built an e-commerce platform with category-based shopping, order tracking, and cancellations. Integrated Elasticsearch within Docker for semantic search, improving accuracy. Developed an AI-driven ticketing system using OpenAI and base64 image processing for defect analysis. Implemented role-based access control for Store Managers, Salesmen, and Customers, enabling CRUD operations and AI-powered product generation. Also AI based product generation. Used MySQL for all data and MongoDB for Customer Reviews.',
+    github: 'https://github.com/dhruvpatel77741/SmartHomes',
   },
+  // {
+  //   name: 'Currency-Converter',
+  //   companyLogo: './img/icons/common/currency-converter-logo2.png',
+  //   desc: 'A user-friendly Currency Converter application that enables seamless currency conversion between different currencies. With real-time exchange rates fetched from an external API, the app provides dynamic results. It also showcases a visually appealing interface with country flags for each currency, offering a smooth user experience. The application gives conversions, ensuring users have the latest data at their fingertips.',
+  //   github: 'https://github.com/dhruvpatel77741/Currency-Converter',
+  // },
   {
     name: 'Insta Reels',
     companyLogo: './img/icons/common/insta-logo.svg',
