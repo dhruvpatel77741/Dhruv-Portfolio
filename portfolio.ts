@@ -221,7 +221,7 @@ export const experience: ExperienceType[] = [
 export const projects: ProjectType[] = [
   {
     name: 'Medical NLP Service - Diagnostic Report Processor',
-    companyLogo: './img/icons/common/ECommerce-logo.png',
+    companyLogo: './img/icons/common/covid19.png',
     desc: 'Built an enterprise-grade cloud medical NLP service using Python and Hugging Face for tokenization and sequence classification. Integrated a performant cloud API gateway within sandboxed execution boundaries, reducing data latency by 80% while safeguarding strict medical data residency rules. Developed multi-label correlation pipelines to process patient data streams, improving diagnostic matching accuracy by 25%. Implemented secure data management across infrastructure for all patient medical records.',
     github: 'https://github.com/dhruvpatel77741/CS595-NLP_Extraction.git',
   },
