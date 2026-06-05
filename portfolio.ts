@@ -26,7 +26,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: '/',
+  url: '',
   linkedin: 'https://www.linkedin.com/in/dhruvpatel77741/',
   github: 'https://github.com/dhruvpatel77741/',
   gmail: 'dhruvpatel77741@gmail.com'
