@@ -225,14 +225,14 @@
             description:
               "A passionate software developer, your fellow coder, and a proud tech geek. Let's chat about all things tech and explore the latest innovations together. Keep scrolling to discover more about me.",
             resumeLink:
-              'https://drive.google.com/file/d/1p7Qt0rUXi3JmL3Cl_STtv_EvHZqCyEk3/view',
+              'https://drive.google.com/file/d/1YWCo5FZAePc6bGSLBxYCoxfHKdcZgXCn/view',
           },
           s = { githubUserName: 'dhruvpatel77741' },
           r = {
             url: '',
             linkedin: 'https://www.linkedin.com/in/dhruvpatel77741/',
             github: 'https://github.com/dhruvpatel77741/',
-            gmail: 'dhruv310@gmail.com',
+            gmail: 'dhruvpatel77741@gmail.com',
           },
           l = {
             title: 'WHAT I DO',
@@ -326,7 +326,7 @@
             {
               schoolName: 'Illinois Institute of Technology',
               subHeader: 'Master in Computer Science',
-              duration: 'August 2022 - Present',
+              duration: 'August 2023 - May 2026',
               desc: '',
               companyLogo: './img/icons/common/iitlogo.png',
               descBullets: [],
