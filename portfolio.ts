@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   description:
     "A passionate software developer, your fellow coder, and a proud tech geek. Let's chat about all things tech and explore the latest innovations together. Keep scrolling to discover more about me.",
   resumeLink:
-    'https://drive.google.com/file/d/1p7Qt0rUXi3JmL3Cl_STtv_EvHZqCyEk3/view',
+    'https://drive.google.com/file/d/1YWCo5FZAePc6bGSLBxYCoxfHKdcZgXCn/view',
 };
 
 export const openSource = {
