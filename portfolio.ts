@@ -189,26 +189,19 @@ export const experience: ExperienceType[] = [
     desc: 'Standardize complex distributed architectures and serverless paradigms for large developer teams while enforcing enterprise SLA standards. Engineer containerized microservices using Docker to streamline CI/CD pipelines and improve deployment efficiency by 25%. Evaluate full-stack system architectures and design automated regression testing suites to reduce integration defects and bugs by 30%.',
   },
   {
-    role: 'Frontend Developer',
-    company: 'Uveaa Australia Pty. Ltd.',
-    companyLogo: './img/icons/common/uveaa-logo3.svg',
-    date: 'Jan 2024 – Jul 2024',
-    desc: 'Engineered a responsive, highly accessible web application, boosting user engagement by 15%. Collaborated with UX and backend teams to implement performant UI modules and data-fetching strategies, reducing production defects by 20%. Employed agile methodologies, accelerating feature deployment timelines by 15%.',
-  },
-  {
     role: 'Software Developer',
     company: 'Insignia Technolabs',
     companyLogo: './img/icons/common/insignia-logo2.png',
     date: 'Jul 2023 – Jul 2024',
     desc: 'Led the optimization and security of enterprise-level MySQL databases and RESTful APIs for 1,000+ active users. Conducted technical root-cause investigations and debugging to isolate performance anomalies, ensuring high-quality system performance. Played a key role in Git-based code reviews and agile cycles, driving a 25% improvement in user platform adoption.',
   },
-  // {
-  //   role: 'Administrative and Operations Coordinator',
-  //   company: 'Shiv Immigration',
-  //   companyLogo: './img/icons/common/shiv-logo.jpg',
-  //   date: 'May 2023 – Dec 2023',
-  //   desc: 'Managed financial transactions, including budgeting, expense tracking, and financial reporting. Oversaw daily operations, ensuring smooth functioning of the institution and resolving any operational issues. Led and supervised teams to optimize workflows, enforce compliance, and achieve organizational goals.',
-  // },
+  {
+    role: 'Administrative and Operations Coordinator',
+    company: 'Shiv Immigration',
+    companyLogo: './img/icons/common/shiv-logo.jpg',
+    date: 'May 2023 – Dec 2023',
+    desc: 'Managed financial transactions, including budgeting, expense tracking, and financial reporting. Oversaw daily operations, ensuring smooth functioning of the institution and resolving any operational issues. Led and supervised teams to optimize workflows, enforce compliance, and achieve organizational goals.',
+  },
   {
     role: 'Project Intern',
     company: 'Institute for Plasma Research',
